@@ -9,13 +9,13 @@
 
 This assignment is about the 10 busiest international routes in the world (including Hong Kong, Macao and Taiwan).
 
-[地图链接]( https://chongjunang.github.io/busiest_route.html ）
+[🔗]
 ## -组合图标-
 ## -词频统计图-
 本次作业是关于在社交媒体上搜索最多的航空公司。
 
 This assignment is about the top searched airline companies on social media.
-[词云链接]()
+[🔗](airline_wordcloud.html)
 ## 2.作业2
 作业二叙述
 [作业2链接]（https://)
