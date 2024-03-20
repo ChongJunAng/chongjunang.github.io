@@ -11,9 +11,9 @@ This assignment is about the 10 busiest international routes in the world (inclu
 
 [🔗](https://chongjunang.github.io/busiest_route.html)
 ## -组合图标-
-本次作业是关于
+本次作业是关于新加坡航空公司在2003年至2023年20年期间的收入和利润/（亏损）。
 
-This assignment is about
+This assignment is about the revenue and profit/(loss) of Singapore Airline from 2003 to 2023, in the period of 20 years.
 
 [🔗]()
 ## -词频统计图-
