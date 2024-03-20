@@ -15,6 +15,7 @@ This assignment is about the 10 busiest international routes in the world (inclu
 本次作业是关于在社交媒体上搜索最多的航空公司。
 
 This assignment is about the top searched airline companies on social media.
+
 [🔗](airline_wordcloud.html)
 ## 2.作业2
 作业二叙述
