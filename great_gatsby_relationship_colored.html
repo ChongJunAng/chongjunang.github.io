@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+
+</head>
+<body >
+    <div id="5f665e4bf2404016bc90d616cd716e07" class="chart-container" style="width:100%; height:600px; "></div>
+    <script>
+        var chart_5f665e4bf2404016bc90d616cd716e07 = echarts.init(
+            document.getElementById('5f665e4bf2404016bc90d616cd716e07'), 'white', {renderer: 'canvas'});
+        var option_5f665e4bf2404016bc90d616cd716e07 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "color": [
+        "#5470c6",
+        "#91cc75",
+        "#fac858",
+        "#ee6666",
+        "#73c0de",
+        "#3ba272",
+        "#fc8452",
+        "#9a60b4",
+        "#ea7ccc"
+    ],
+    "series": [
+        {
+            "type": "graph",
+            "layout": "force",
+            "symbolSize": 10,
+            "circular": {
+                "rotateLabel": false
+            },
+            "force": {
+                "repulsion": 10000,
+                "gravity": 0.2,
+                "edgeLength": [
+                    10,
+                    100
+                ],
+                "friction": 0.6,
+                "layoutAnimation": true
+            },
+            "label": {
+                "show": true,
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "roam": true,
+            "draggable": false,
+            "focusNodeAdjacency": true,
+            "data": [
+                {
+                    "name": "Jay Gatsby",
+                    "fixed": false,
+                    "symbolSize": 60,
+                    "itemStyle": {
+                        "color": "#FFA500"
+                    },
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {}
+                },
+                {
+                    "name": "Daisy Buchanan",
+                    "fixed": false,
+                    "symbolSize": 50,
+                    "itemStyle": {
+                        "color": "#FF4500"
+                    },
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {}
+                },
+                {
+                    "name": "Tom Buchanan",
+                    "fixed": false,
+                    "symbolSize": 50,
+                    "itemStyle": {
+                        "color": "#87CEEB"
+                    },
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {}
+                },
+                {
+                    "name": "Nick Carraway",
+                    "fixed": false,
+                    "symbolSize": 40,
+                    "itemStyle": {
+                        "color": "#32CD32"
+                    },
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {}
+                },
+                {
+                    "name": "Jordan Baker",
+                    "fixed": false,
+                    "symbolSize": 40,
+                    "itemStyle": {
+                        "color": "#800080"
+                    },
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {}
+                },
+                {
+                    "name": "Myrtle Wilson",
+                    "fixed": false,
+                    "symbolSize": 40,
+                    "itemStyle": {
+                        "color": "#FFD700"
+                    },
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {}
+                },
+                {
+                    "name": "George Wilson",
+                    "fixed": false,
+                    "symbolSize": 40,
+                    "itemStyle": {
+                        "color": "#00FFFF"
+                    },
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {}
+                },
+                {
+                    "name": "Meyer Wolfsheim",
+                    "fixed": false,
+                    "symbolSize": 40,
+                    "itemStyle": {
+                        "color": "#FF69B4"
+                    },
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {}
+                },
+                {
+                    "name": "Dan Cody",
+                    "fixed": false,
+                    "symbolSize": 40,
+                    "itemStyle": {
+                        "color": "#8A2BE2"
+                    },
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {}
+                },
+                {
+                    "name": "Gatsby's Father",
+                    "fixed": false,
+                    "symbolSize": 40,
+                    "itemStyle": {
+                        "color": "#FF6347"
+                    },
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {}
+                }
+            ],
+            "edgeLabel": {
+                "show": false,
+                "margin": 8
+            },
+            "edgeSymbol": [
+                null,
+                null
+            ],
+            "edgeSymbolSize": 10,
+            "links": [
+                {
+                    "source": "Jay Gatsby",
+                    "target": "Daisy Buchanan",
+                    "value": 100,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "Daisy Buchanan",
+                    "target": "Tom Buchanan",
+                    "value": 80,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "Tom Buchanan",
+                    "target": "Daisy Buchanan",
+                    "value": 80,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "Tom Buchanan",
+                    "target": "Myrtle Wilson",
+                    "value": 60,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "Nick Carraway",
+                    "target": "Jay Gatsby",
+                    "value": 60,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "Nick Carraway",
+                    "target": "Jordan Baker",
+                    "value": 60,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "Jay Gatsby",
+                    "target": "Meyer Wolfsheim",
+                    "value": 60,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "Jay Gatsby",
+                    "target": "Dan Cody",
+                    "value": 60,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "Jay Gatsby",
+                    "target": "Gatsby's Father",
+                    "value": 60,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "Tom Buchanan",
+                    "target": "George Wilson",
+                    "value": 40,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "Nick Carraway",
+                    "target": "George Wilson",
+                    "value": 40,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                }
+            ]
+        }
+    ],
+    "legend": [
+        {
+            "data": [],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "title": [
+        {
+            "show": true,
+            "text": "Relationship Diagram in The Great Gatsby",
+            "target": "blank",
+            "subtarget": "blank",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
+        }
+    ]
+};
+        chart_5f665e4bf2404016bc90d616cd716e07.setOption(option_5f665e4bf2404016bc90d616cd716e07);
+            window.addEventListener('resize', function(){
+                chart_5f665e4bf2404016bc90d616cd716e07.resize();
+            })
+    </script>
+</body>
+</html>
