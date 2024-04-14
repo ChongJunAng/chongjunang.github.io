@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Search</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            transform: scale(1.2); /* 设置整体放大倍数 */
+        }
+        #search-container {
+            margin-top: 50px;
+        }
+        #search-input {
+            width: 300px;
+            padding: 8px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        #search-button {
+            padding: 8px 20px;
+            font-size: 16px;
+            background-color: #4285f4;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #search-button:hover {
+            background-color: #357ae8;
+        }
+        #search-results {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Google Search</h1>
+    <img src="google_logo.png.gif" alt="Google Logo" style="width: 200px;">
+    <div id="search-container">
+        <br>
+        <input type="text" id="search-input" placeholder="Enter your search query">
+        <button id="search-button" onclick="googleSearch()">Search</button>
+    </div>
+    <div id="search-results"></div>
+
+    <script>
+        function googleSearch() {
+            var searchQuery = document.getElementById("search-input").value;
+            var searchResults = document.getElementById("search-results");
+            searchResults.innerHTML = "<p>Searching for: <strong>" + searchQuery + "</strong></p>";
+            // Here you can implement your logic to perform the actual search, e.g., using Google's API
+            // For demonstration purposes, let's just display a message
+            searchResults.innerHTML += "<p>Search results will appear here...</p>";
+        }
+    </script>
+</body>
+</html>
