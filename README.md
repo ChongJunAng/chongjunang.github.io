@@ -23,6 +23,22 @@ This assignment is about the top searched airline companies on social media.
 
 [🔗](https://chongjunang.github.io/airline_wordcloud.html)
 ## 2.作业2
-作业二叙述
+## -关系图 RELATIONSHIP DIAGRAM- 
+本次作业是关于
 
-[作业2链接]()
+This asignment is about 
+
+[🔗]()
+## -网页设计 Web Design-
+本次作业是关于
+
+This asignment is about 
+
+[🔗]()
+## -课堂练习：网页设计 IN-CLASSROOM:WEB DESIGN-
+本次作业是关于
+
+This assignment is about
+
+[🔗]()
+
