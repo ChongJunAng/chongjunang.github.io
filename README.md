@@ -24,11 +24,11 @@ This assignment is about the top searched airline companies on social media.
 [🔗](https://chongjunang.github.io/airline_wordcloud.html)
 ## 2.作业2
 ## -关系图 RELATIONSHIP DIAGRAM- 
-本次作业是关于
+本次作业是关于弗朗西斯·斯科特·菲茨杰拉德的《了不起的盖茨比》中角色之间的关系。
 
-This asignment is about 
+This asignment is about the relationship between the roles in "The Great Gatsby" by F. Scott Fitzgerald.
 
-[🔗]()
+[🔗](https://chongjunang.github.io/great_gatsby_relationship_colored.html)
 ## -网页设计 Web Design-
 本次作业是关于
 
